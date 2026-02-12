@@ -776,6 +776,7 @@ export const restaurant = `query Restaurant($id:String){
     restaurantUrl
     cuisines
     stripeDetailsSubmitted
+    shopType
   }
 }`
 
