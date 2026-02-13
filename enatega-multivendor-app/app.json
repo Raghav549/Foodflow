@@ -41,8 +41,9 @@
       "usesAppleSignIn": true,
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Allow $(PRODUCT_NAME) to use location to determine the delivery address for your orders.",
-        "UIBackgroundModes": ["remote-notification", "remote-notification"],
+        "UIBackgroundModes": ["remote-notification"],
         "NSUserTrackingUsageDescription": "Allow this app to collect app-related data that can be used for tracking you or your device.",
+        "NSUserNotificationsUsageDescription": "Enable notifications to receive real-time updates about your orders and special offers.",
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": ["com.googleusercontent.apps.650001300965-dkji7jutv8gc5m4n7cdg3nft87sauhn7"]
