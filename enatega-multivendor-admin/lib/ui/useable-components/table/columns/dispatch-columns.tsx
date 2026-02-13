@@ -52,7 +52,7 @@ const itemTemplate = (option: IDropdownSelectItem) => {
     <div
       className={`flex flex-row-reverse items-center justify-start gap-2 ${
         classes.dropDownItem
-      } ${(option as any).disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+      } ${option.disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
     >
       <span>{option.label}</span>
     </div>
