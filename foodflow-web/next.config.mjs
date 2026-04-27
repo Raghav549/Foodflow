@@ -58,7 +58,7 @@ const nextConfig = {
           {
             key: "Content-Security-Policy",
             value:
-              "media-src 'self' https://*.amazonaws.com https://*.s3.amazonaws.com https://assets.enatega.com data: blob:",
+              "media-src 'self' https://*.amazonaws.com https://*.s3.amazonaws.com https://assets.foodflow.app data: blob:",
           },
         ],
       },
@@ -98,7 +98,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "enatega.com",
+        hostname: "foodflow.com",
       },
       {
         protocol: "https",
@@ -146,7 +146,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "enatega-backend.s3.eu-north-1.amazonaws.com",
+        hostname: "foodflow-backend.s3.eu-north-1.amazonaws.com",
       },
       {
         protocol: "https",
