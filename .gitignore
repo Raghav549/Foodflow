@@ -2,39 +2,41 @@
 # Dependencies
 node_modules/
 
+# Build outputs
+dist/
+build/
+.next/
+out/
+
 # Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE
+# IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# OS
-.DS_Store
-Thumbs.db
+# Temporary files
+*.tmp
 
-# Build artifacts
-dist/
-build/
-target/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
@@ -57,117 +59,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Expo
-.expo/
-.expo-shared/
-
-# Metro
-.metro/
-
-# TypeScript
-*.tsbuildinfo
-
-# Next.js
-.next/
-out/
-
-# EAS
-.easignore
-
-# Sentry
-.sentry/
-
-# Patches
-*.patch
-
-# NPM
-package-lock.json
-npm-debug.log*
-
-# Yarn
-yarn.lock
-.yarn/
-.pnp.*
-.pnp.js
-
-# Babel
-.babelrc
-
-# ESLint
-.eslintcache
-
-# Prettier
-.prettierignore
-
-# Cypress
-cypress/videos/
-cypress/screenshots/
-
-# Firebase
-firebase-debug.log*
-firepit.log*
-
-# Metro bundler
-.bundle
-
-# React Native
-*.apk
-*.aab
-*.ipa
-
-# Gradle
-.gradle/
-build/
-
-# Android
-*.keystore
-local.properties
-
-# iOS
-*.mobileprovision
-*.xcconfig
-
-# Webpack
-webpack-stats.json
-
-# Jest
-coverage/
-*.lcov
-
-# Git
-.git/
-
-# Temporary editor files
-*~
-*.bak
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-apidoc/
-doc/
-
-# CI
-.semaphore/
-
-# Expo updates
-.expo/
-.expo-shared/
-
-# NativeWind
-.nativewind/
-
-# EAS build
-.eas/
-
 ```
