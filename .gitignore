@@ -2,39 +2,42 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-.next/
-out/
-
 # Environment variables
 .env
 .env.local
 *.env.*
+
+# Logs
+*.log
 
 # IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs
-*.log
-
-# Temporary files
 *.tmp
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Build outputs
+dist/
+build/
+target/
 
-# Python cache
+# Python artifacts
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py~
+*.py.class
+*.class
+*.o
+*.obj
+*.out
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Compression files
 *.zip
