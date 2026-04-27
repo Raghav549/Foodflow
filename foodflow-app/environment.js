@@ -9,17 +9,12 @@ import * as Updates from 'expo-updates'
 
 const useEnvVars = (env = Updates.channel) => {
   const configuration = useContext(ConfigurationContext)
-  
-  // Production URLs - pointing to Render backend
-  const BACKEND_URL = 'https://foodflow-2h6z.onrender.com'
-  
   if (env === 'production' || env === 'staging') {
     return {
-      GRAPHQL_URL: `${BACKEND_URL}/graphql`,
-      WS_GRAPHQL_URL: `wss://${BACKEND_URL}/graphql`,
-      SERVER_URL: `${BACKEND_URL}/`,
-      SERVER_REST_URL: `${BACKEND_URL}/`,
-      API_BASE_URL: BACKEND_URL,
+      GRAPHQL_URL: 'https://aws-server-v2.enatega.com/graphql',
+      WS_GRAPHQL_URL: 'wss://aws-server-v2.enatega.com/graphql',
+      SERVER_URL: 'https://aws-server-v2.enatega.com/graphql',
+      SERVER_REST_URL: 'https://aws-server-v2.enatega.com/',
       IOS_CLIENT_ID_GOOGLE: configuration?.iOSClientID,
       ANDROID_CLIENT_ID_GOOGLE: configuration?.androidClientID,
       AMPLITUDE_API_KEY: configuration?.appAmplitudeApiKey,
@@ -33,13 +28,11 @@ const useEnvVars = (env = Updates.channel) => {
     }
   }
 
-  // Development URLs
   return {
-    GRAPHQL_URL: `${BACKEND_URL}/graphql`,
-    WS_GRAPHQL_URL: `wss://${BACKEND_URL}/graphql`,
-    SERVER_URL: `${BACKEND_URL}/`,
-    SERVER_REST_URL: `${BACKEND_URL}/`,
-    API_BASE_URL: BACKEND_URL,
+    GRAPHQL_URL: 'https://aws-server-v2.enatega.com/graphql',
+    WS_GRAPHQL_URL: 'wss://aws-server-v2.enatega.com/graphql',
+    SERVER_URL: 'https://aws-server-v2.enatega.com/graphql',
+    SERVER_REST_URL: 'https://aws-server-v2.enatega.com/',
     IOS_CLIENT_ID_GOOGLE: configuration?.iOSClientID,
     ANDROID_CLIENT_ID_GOOGLE: configuration?.androidClientID,
     AMPLITUDE_API_KEY: configuration?.appAmplitudeApiKey,
