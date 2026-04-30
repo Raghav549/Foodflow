@@ -107,13 +107,13 @@
       [
         "expo-updates",
         {
-          "username": "ninjas_code"
+          "username": "kashyap789"
         }
       ],
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow $Enatega Multivendor to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow $foodflow to use your location."
         }
       ]
     ],
@@ -129,7 +129,7 @@
     },
 
     "updates": {
-      "url": "https://u.expo.dev/331d4e5b-b12a-434a-92ec-d6d283dc0e46"
+      "url": "https://u.expo.dev/d54da45a-ae18-4887-aa02-58e9ed59fa8d"
     }
   }
 }
